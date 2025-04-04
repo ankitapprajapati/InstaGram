@@ -1,6 +1,9 @@
 import { useState } from "react";
 import axios from "axios";
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = import.meta.env.VITE_API_URL;
+
+console.log( "api_url : "+ API_URL)
+
 
 const InstagramLogin = () => {
   const [formData, setFormData] = useState({ username: "", password: "" });
