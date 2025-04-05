@@ -28,8 +28,9 @@ const InstagramLogin = () => {
   };
 
   return (
-    <div className="flex items-center flex-col justify-center min-h-screen bg-black gap-8">
-      <div className="w-full max-w-md p-6 border border-[#363636]  bg-[#000000] rounded-sm shadow-lg">
+    <div className="flex items-center  flex-col justify-center min-h-screen bg-black gap-8">
+      {/*max-w-xs md:w-[300px] p-6 border border-[#363636] bg-[#000000] rounded-sm shadow-lg"> */}
+      <div className="w-full max-w-sm p-6 mt-12 border border-[#363636]  bg-[#000000] rounded-sm shadow-lg">
         {/* Instagram Logo */}
         <h1 className="text-4xl  text-center text-white mb-6 py-8 font-pacifico">
           Instagram
@@ -87,7 +88,7 @@ const InstagramLogin = () => {
         </div>
       </div>
 
-      <div className="w-full max-w-md p-6 border border-[#363636]  bg-[#000000] rounded-sm shadow-lg" >
+      <div className="w-full max-w-sm p-6 border border-[#363636]  bg-[#000000] rounded-sm shadow-lg" >
         <div className="text-center text-md text-white">
           Don't have an account? <a href="https://www.instagram.com/accounts/login/?hl=en" className="text-blue-500">Sign up</a>
         </div>
